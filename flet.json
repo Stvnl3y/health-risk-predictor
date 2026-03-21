@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "Health Risk Checker",
+    "version": "1.0.0",
+    "description": "AI-powered health risk assessment for diabetes and hypertension",
+    "author": "Health Risk Team",
+    "entry_point": "app/main.py"
+  },
+  "android": {
+    "package_name": "com.healthrisk.checker",
+    "version": "1.0.0",
+    "min_sdk": 21,
+    "target_sdk": 33,
+    "permissions": [
+      "INTERNET"
+    ],
+    "icon": "assets/icon.png",
+    "splash": "assets/splash.png",
+    "build_number": 1
+  },
+  "ios": {
+    "bundle_id": "com.healthrisk.checker",
+    "version": "1.0.0",
+    "build_number": 1,
+    "minimum_deployment_target": "13.0"
+  },
+  "web": {
+    "title": "Health Risk Checker",
+    "description": "AI-powered health risk assessment",
+    "favicon": "assets/favicon.ico"
+  },
+  "windows": {
+    "company_name": "Health Risk Team",
+    "product_name": "Health Risk Checker",
+    "file_description": "Health Risk Assessment Application"
+  },
+  "macos": {
+    "bundle_id": "com.healthrisk.checker",
+    "minimum_system_version": "10.14"
+  },
+  "linux": {
+    "package_name": "health-risk-checker"
+  }
+}
